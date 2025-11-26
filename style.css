@@ -41,7 +41,7 @@ body {
   text-decoration: none;
   font-weight: 500;
   color: #0a0a0a;
-  border: 1px solid #e0e0e0;
+  border: 1: solid #e0e0e0;
   border-radius: 0;
   transition: color 0.15s, border-color 0.15s;
 }
@@ -49,6 +49,43 @@ body {
 .links a:hover {
   color: #00c853;
   border-color: #00c853;
+}
+
+/* === SIGNAL LOG === */
+#signal-log {
+  margin-top: 2rem;
+  padding-top: 1.4rem;
+  border-top: 1px solid #e0e0e0;
+}
+
+#signal-log h2 {
+  font-size: 0.95rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 1.2rem;
+  color: #0a0a0a;
+}
+
+#signal-log article {
+  margin-bottom: 1.4rem;
+  line-height: 1.6;
+}
+
+#signal-log img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0.6rem auto;
+  border: 1px solid #eaeaea;
+}
+
+#signal-log small {
+  display: block;
+  color: #666;
+  font-size: 0.9rem;
+  margin-top: 0.4rem;
+  font-family: 'Menlo', monospace;
 }
 
 /* === MOBILE === */
