@@ -1,0 +1,65 @@
+/* === n01self — TIGHT CYBER-REALIST THEME === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Menlo', 'Courier New', monospace;
+  background: #ffffff;
+  color: #0a0a0a;
+  line-height: 1.5;
+  text-align: center;
+  padding: 1.8rem 1.25rem;
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 1.05rem;
+}
+
+/* === ARTIST NAME === */
+#artist-name {
+  font-size: 2.2rem;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  margin: 0.6rem 0 1.1rem;
+}
+
+/* === ARTIST STATEMENT === */
+#artist-statement {
+  margin: 0 0 1.4rem;
+  line-height: 1.6;
+  font-size: 1.05rem;
+  white-space: pre-line;
+}
+
+/* === LINKS === */
+.links a {
+  display: inline-block;
+  margin: 0 0.4rem;
+  padding: 0.45rem 0.9rem;
+  text-decoration: none;
+  font-weight: 500;
+  color: #0a0a0a;
+  border: 1px solid #e0e0e0;
+  border-radius: 0;
+  transition: color 0.15s, border-color 0.15s;
+}
+
+.links a:hover {
+  color: #00c853;
+  border-color: #00c853;
+}
+
+/* === MOBILE === */
+@media (max-width: 600px) {
+  #artist-name {
+    font-size: 1.9rem;
+  }
+  .links a {
+    display: block;
+    margin: 0.35rem auto;
+    max-width: 180px;
+    padding: 0.4rem 0.8rem;
+  }
+}
